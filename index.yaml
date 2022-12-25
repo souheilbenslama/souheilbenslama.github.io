@@ -9,6 +9,6 @@ entries:
     name: petsi-back
     type: application
     urls:
-    - https://github.com/souheilbenslama/souheilbenslama.github.io/petsi-back-0.1.0.tgz
+    - https://github.com/souheilbenslama/souheilbenslama.github.io/blob/master/petsi-back-0.1.0.tgz
     version: 0.1.0
 generated: "2022-12-25T10:54:27.515784399+01:00"
