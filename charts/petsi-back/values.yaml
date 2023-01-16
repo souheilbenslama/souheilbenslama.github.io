@@ -4,7 +4,7 @@
 
 
 # this value determine the numeber of pod replicas managed by the deployment its callde  deployment.replicas
-replicaCount: 3
+replicaCount: 6
 
 image:
   repository: souheilbenslama/petpp
