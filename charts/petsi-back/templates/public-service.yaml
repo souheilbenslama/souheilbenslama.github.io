@@ -4,8 +4,9 @@ metadata:
   name: petsi-public-service
 spec:
   selector:
-    app.kubernetes.io/instance: 'petsi'
+    app.kubernetes.io/instance: 'petsiapp'
     app.kubernetes.io/name: 'petsi-back'
+    color: 'blue'
   ports:
   - name: http
     port: 4000
