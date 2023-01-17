@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: petsi-public-service
+spec:
+  selector:
+    app.kubernetes.io/instance: 'petsi'
+    app.kubernetes.io/name: 'petsi-back'
+  ports:
+  - name: http
+    port: 4000
+    targetPort: 4000
+  type: LoadBalancer
+  loadBalancerIP: 20.74.24.140
